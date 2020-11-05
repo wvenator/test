@@ -1,0 +1,680 @@
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
+@import "fonts/BebasNeue-Bold.css";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+table {
+	border-spacing: 0;
+}
+fieldset,img {
+	border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-weight: normal;
+	font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+caption,th {
+	text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%;
+	margin:0;
+	padding:0;
+	color:#444;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body {
+	background: #1D1D1D;
+}
+
+.topbar {
+	width: 1440px;
+	height: 97px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 17px 147px 0 147px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 204px;
+	height: 97px;
+	background: url(/mainrasha/img/logo.png) no-repeat;
+	background-size: contain;
+}
+
+.menu {
+	width: 68px;
+	height: 16px;
+	background: url(/mainrasha/img/menu.png) no-repeat;
+	background-size: contain;
+}
+
+.menu:hover {
+	width: 68px;
+	height: 16px;
+	background: url(/mainrasha/img/menu_hover.png) no-repeat;
+	background-size: contain;
+}
+
+.concept {
+	width: 1440px;
+	padding-top: 41px;
+	margin: 54px auto;
+	background: url(/mainrasha/img/concept_fon.jpg) no-repeat;
+	background-position: right;
+	box-sizing: border-box;
+}
+
+.concept .content {
+	width: 1440px;
+	margin: 0 auto;
+	padding-left: 147px;
+	box-sizing: border-box;
+}
+
+.concept h1 {
+	color: #fff;
+	font: 700 115px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;
+}
+ 
+.concept p {
+	padding-top: 31px;
+	color: #fff;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 35px;
+}
+
+.concept .button {
+	width: 490px;
+	height: 94px;
+	margin-top: 76px;
+	background: #D11D1D;
+	color: #fff;
+	padding: 30px;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 35px;
+	box-sizing: border-box;
+}
+
+.concept .arrow {
+	width: 70px;
+	height: 70px;
+	background: url(/mainrasha/img/concept_arrow.png) no-repeat;
+	background-size: contain;
+	margin-top: -18px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.project {
+	width: 1440px;
+	margin: 98px auto;
+	padding: 0 147px;
+	box-sizing: border-box;
+}
+
+.project h1 {
+	color: #fff;
+	font: 700 90px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;	
+}
+
+.projects {
+	width: 915px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 43px auto;
+	box-sizing: border-box;
+}
+
+.pro1 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project1.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro2 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project2.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro3 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project3.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro4 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project4.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro5 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project5.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro6 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project6.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro7 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project7.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro8 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project8.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro9 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project9.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro10 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project10.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro11 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project11.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.pro12 {
+	width: 280px;
+	height: 280px;
+	margin: 12.5px;
+	background: url(/mainrasha/img/project12.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.reward {
+	margin-top: -153px;
+	padding: 158px 275px 73px 147px;
+	background: #D11D1D;
+	box-sizing: border-box;
+}
+
+.reward .content {
+	width: 1016px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.arm {
+	width: 166px;
+	height: 226px;
+	margin-left: 16px;
+	background: url(/mainrasha/img/reward.png) no-repeat;
+	background-size: contain;
+}
+
+.arm:hover {
+	background: url(/mainrasha/img/reward_hover.png) no-repeat;
+}
+
+.reward h1 {
+	color: #fff;
+	font: 700 90px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;
+	margin-top: 93px;
+	box-sizing: border-box;
+}
+
+.rewards {
+	width: 787px;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin: -517px 0 0 231px;
+	box-sizing: border-box;
+}
+
+.rewmin {
+	width: 261px;
+	height: 261px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	padding: 170px 6px 0 7px;
+	color: #fff;
+	font: 400 17px 'Nunito', sans-serif;
+	line-height: 24px;	
+	box-sizing: border-box;
+}
+
+.read {
+	background: #fff;
+	padding: 140px 147px;
+	box-sizing: border-box;
+}
+
+.read .content {
+	width: 1146px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.read h1 {
+	color: #2B2B2B;
+	font: 700 90px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;
+}
+
+.reads {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+
+.readen {
+	width: 558px;
+}
+
+.read_f1 {
+	width: 558px;
+	height: 448px;
+	background: url(/mainrasha/img/read1.jpg) no-repeat;
+	background-size: contain;
+	padding-top: 366px;
+	box-sizing: border-box;
+}
+
+.read_f2 {
+	width: 558px;
+	height: 448px;
+	background: url(/mainrasha/img/read2.jpg) no-repeat;
+	background-size: contain;
+	padding-top: 366px;
+	box-sizing: border-box;
+}
+
+.readen .button {
+	width: 458px;
+	height: 82px;
+	background: #fff;
+	color: #D11D1D;
+	padding: 25px 0 0 36px;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 35px;
+	border: 1px solid #D11D1D;
+	cursor:pointer;
+	transition: all .2s;
+	box-sizing: border-box;
+}
+
+.readen .button .arrow {
+	width: 99px;
+	height: 8px;
+	background: url(/mainrasha/img/arrow_red.png) no-repeat;
+	background-size: contain;
+	float: right;
+	margin: 12px 37px 0 0;
+	box-sizing: border-box;
+}
+
+.readen .button:hover {
+	background: #D11D1D;
+	color: #fff;
+}
+
+.readen .button:hover .arrow {
+	background: url(/mainrasha/img/arrow_white.png) no-repeat;
+}
+
+.readen h2 {
+	margin-top: 42px;
+	color: #1D1D1D;
+	font: 700 35px 'BebasNeue-Bold', cursive;
+	line-height: 140%;
+	box-sizing: border-box;
+}
+
+.readen p {
+	margin-top: 25px;
+	color: #1D1D1D;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 35px;
+	box-sizing: border-box;
+}
+
+.readen h3 {
+	margin-top: 30px;
+	color: #828282;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 35px;
+	box-sizing: border-box;
+}
+
+.button_b {
+	width: 1142px;
+	height: 90px;
+	background: #fff;
+	color: #1D1D1D;
+	margin-top: 93px;
+	text-align:center;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 90px;
+	border: 2px solid #1D1D1D;
+	cursor:pointer;
+	transition: all .2s;
+	box-sizing: border-box;
+}
+
+.button_b:hover {
+	background: #1D1D1D;
+	color: #fff;
+}
+
+.case .content {
+	width: 1440px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.case h1 {
+	margin: 90px 0 0 147px;
+	color: #fff;
+	font: 700 90px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;
+	box-sizing: border-box;
+}
+
+.cases {
+	padding-top: 57px;
+	box-sizing: border-box;
+}
+
+.case_data {
+	width: 405px;
+	height: 273px;
+	padding: 34px 0 0 25px;
+	background: #1D1D1D;
+	opacity: 0.85;
+	box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.case_data h2 {
+	color: #fff;
+	font: 700 48px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;
+}
+
+.case_data p {
+	color: #fff;
+	font: 200 18px 'Nunito', sans-serif;
+	line-height: 25px;
+}
+
+.case1 {
+	width: 509px;
+	height: 512px;
+	margin: 0 20px;
+	padding-top: 230px;
+	filter: grayscale(90%);
+    -webkit-filter: grayscale(90%);
+    transition: all 0.5s ease 0s;
+	background: url(/mainrasha/img/case1.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.case1:hover {
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+	transition: all 0.6s ease 0s;
+}
+
+.case1 .case_data {
+	display: none;
+}
+
+.case1:hover .case_data {
+	display: block;
+}
+
+.case2 {
+	width: 509px;
+	height: 512px;
+	margin: 0 20px;
+	padding-top: 230px;
+	filter: grayscale(90%);
+    -webkit-filter: grayscale(90%);
+    transition: all 0.6s ease 0s;
+	background: url(/mainrasha/img/case1.jpg) no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+
+.case2:hover {
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+	transition: all 0.6s ease 0s;
+}
+
+.case2 .case_data {
+	display: none;
+}
+
+.case2:hover .case_data {
+	display: block;
+}
+
+.button_c {
+	width: 1142px;
+	height: 93px;
+	color: #fff;
+	margin: 77px auto 110px auto;
+	text-align:center;
+	font: 400 25px 'Nunito', sans-serif;
+	line-height: 93px;
+	border: 2px solid #D11D1D;
+	cursor:pointer;
+	transition: all .2s;
+	box-sizing: border-box;
+}
+
+.button_c:hover {
+	background: #D11D1D;
+}
+
+.order {
+	background: #fff;
+	padding: 140px 261px 52px 147px;
+	box-sizing: border-box;
+}
+
+.order .content {
+	width: 1146px;
+	margin: 0 auto;
+	padding-bottom: 141px;
+}
+
+.order h1 {
+	color: #D11D1D;
+	font: 700 90px 'BebasNeue-Bold', cursive;
+	line-height: 90.69%;
+}
+
+.form {
+	width: 1032px;
+	margin-top: 73px;
+}
+
+.form input {
+	display: block;
+	margin: -25px 0 60px auto;
+	width: 558px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	background: none;
+	outline: none;
+	resize: none;
+	border: 0;
+	color: #1D1D1D;
+	font: 400 22px 'Nunito', sans-serif;
+	line-height: 140%;
+	transition: all .3s;
+	border-bottom: 2px solid #bebed2;
+}
+
+.form select {
+	display: block;
+	margin: -104px 349px 52px auto;
+	width: 213px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	background: none;
+	outline: none;
+	resize: none;
+	border: 0;
+	color: #1D1D1D;
+	font: 400 22px 'Nunito', sans-serif;
+	line-height: 140%;
+	transition: all .3s;
+}
+
+.form input:focus {
+	border-bottom: 2px solid #78788c;
+}
+
+.form label {
+	color: #1D1D1D;
+	font: 400 22px 'Nunito', sans-serif;
+	line-height: 140%;
+	margin-left: 113px;
+}
+
+#slider-range {
+	width: 392px;
+	height: 6px;
+	cursor: pointer;
+	background: #E0E0E0;
+	border: 0px;
+	border-radius: 4px;
+	margin: -8px 166px 8px auto;
+}
+
+.ui-slider .ui-slider-handle {
+	height: 26px;
+	width: 26px;
+	margin-top: -7px;
+	cursor: pointer;
+	background: #FFFFFF;
+	border-radius: 15px;
+	border: 2px solid #D11D1D;
+}
+
+
+.ui-widget-header {
+	background: #D11D1D;
+}
+
+#amount {
+	color: #D11D1D;
+	font: 600 25px 'Nunito', sans-serif;
+	line-height: 24px;
+	border: 0;
+	padding-right: 10px;
+	text-align: right;
+	border-bottom: 2px solid #bebed2;
+}
+
+.form button {
+	width: 556px;
+	height: 92px;
+	margin-top: 31px;
+	color: #fff;
+	text-align:center;
+	font: 400 22px 'Nunito', sans-serif;
+	line-height: 92px;
+	border: 1px solid #D11D1D;
+	background: #D11D1D;
+	cursor:pointer;
+	transition: all .2s;
+	box-sizing: border-box;
+	float: right;
+}
+
+.form button:hover {
+	color: #D11D1D;
+	border: 1px solid #D11D1D;
+	background: #fff;
+}

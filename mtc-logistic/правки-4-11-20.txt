@@ -1,0 +1,11 @@
+h1: font 120px > 110px +
+
+runline: maigin 268px > 156px +
+
+runline-right: text-stroke #f00 > #000 +
+
+menu: 3span > 2span +
+
+desktop: border-radius > 100vh +
+
+main: backbackground > 100vh +

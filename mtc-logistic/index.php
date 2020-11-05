@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>MTC Logistic</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (max-width: 900px)">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="js/2.1.1.jquery.min.js"></script>
+	<script src="js/3.0.0.jquery.min.js"></script>
+	<script src="js/0.9.1.jquery.modal.min.js"></script>
+	<script src='js/jquery.marquee.min.js'></script>
+</head>
+<body>
+<div class="topbar">
+	<div class="content">
+		<div class="logo"></div>
+		<div class="number">+7 495 344 44 56</div>
+		<div class="button">Заказать расчет доставки</div>
+		<div class="menu-container">
+			<input type="checkbox" id="openmenu" class="hamburger-checkbox">
+			<div class="hamburger-icon">
+				<label for="openmenu" id="hamburger-label">
+					<span></span>
+					<span></span>
+				</label>    
+			</div>
+			<div class="menu">
+				<ul>
+					<li>О компании</li>
+					<li>Услуги</li>
+					<li>Контакты</li>
+				</ul>
+				<hr>
+				<div class="button">Заказать расчет доставки</div>
+				<div class="number">+7 495 344 44 56<br>mtslog@mail.ru</div>
+				<div class="soc">
+					<div class="yt"></div>
+					<div class="yt"></div>
+					<div class="yt"></div>
+					<div class="yt"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="content">
+		<h1>Грузы по всей стране</h1>
+		<p>Выбирая компанию Вы получаете надежного партнера и поставщика товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+		<div class="button">Заказать расчет доставки</div>
+		<div class="imgm imgm1"></div>
+		<div class="imgm imgm2"></div>
+		<div class="imgm imgm3"></div>
+	</div>
+</div>
+<div class="runline">
+	<div class="marquee-l" data-duplicated='true' data-direction='right'>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Грузы по всей стране</div>
+	<div class="marquee-r" data-duplicated='true' data-direction='left'>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Грузы по всей стране</div>
+</div>
+<div class="services">
+	<h1>Услуги</h1>
+	<div class="content">
+		<div class="service-1">
+			<a href="#modal-1" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Авиаперевозки</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img1"></div>
+		</div>
+		<div class="service-2">
+			<a href="#modal-2" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Мультимодальные перевозки</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img2"></div>
+		</div>
+		<div class="service-3">
+			<a href="#modal-3" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Железнодорожные перевозки</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img3"></div>
+		</div>
+		<div class="service-4">
+			<a href="#modal-4" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Автоперевозки</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img4"></div>
+		</div>
+		<div class="service-5">
+			<a href="#modal-5" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Контейнерные перевозки</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img5"></div>
+		</div>
+		<div class="service-6">
+			<a href="#modal-6" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Таможенное оформление</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img6"></div>
+		</div>
+		<div class="service-7">
+			<a href="#modal-7" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Страхование грузов</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img7"></div>
+		</div>
+		<div class="service-8">
+			<a href="#modal-8" rel="modal:open"><div class="button">Подробнее</div></a>
+			<h2>Складской<br>сервис</h2>
+			<p>Выбирая компанию Вы получаете<br>надежного партнера и поставщика<br>товаров. Компания МТС - лидер рынка,<br>мы знаем как Вам дорого время и скорость.<br>Мы стараемся быть лучшими для Вас</p>
+			<div class="img8"></div>
+		</div>
+	</div>
+</div>
+<div class="runline">
+	<div class="marquee-l" data-duplicated='true' data-direction='right'>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Бережная доставка</div>
+	<div class="marquee-r" data-duplicated='true' data-direction='left'>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Бережная доставка</div>
+</div>
+<div class="whywe">
+	<h1>Почему мы?</h1>
+	<div class="right1">
+		<h2>Мы делаем качественно</h2>
+		<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+		<div class="img"></div>
+	</div>
+	<div class="left">
+		<h2>Уникальные технологии</h2>
+		<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+		<div class="img"></div>
+	</div>
+	<div class="right2">
+		<h2>Наше кредо эффективность</h2>
+		<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+		<div class="img"></div>
+	</div>
+</div>
+<div class="during">
+	<div>За время работы<br>мы перевезли<br>более 3457 грузов</div>
+</div>
+<div class="fly">
+	<div class="left wow slideOutLeft" data-wow-duration="5s" data-wow-delay="0.5s"></div>
+	<div class="right wow slideOutRight" data-wow-duration="5s" data-wow-delay="0.5s"></div>
+</div>
+<div class="runline">
+	<div class="marquee-l" data-duplicated='true' data-direction='right'>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Мы готовы доставить Ваш груз</div>
+	<div class="marquee-r" data-duplicated='true' data-direction='left'>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Мы готовы доставить Ваш груз</div>
+</div>
+<div class="callback">
+	<h1>Заказать обратный звонок</h1>
+	<div class="img"></div>
+	<form>
+		<p>Вы заполняете, а мы уже в пути!</p>
+		<input></input><br>
+		<input></input><br>
+		<input id="big"></input><br>
+	</form>
+</div>
+<!-- window modal -->
+<div class="modal md-content" id="modal-1">
+	<div class="button">Получить консультацию</div>
+	<h1>Авиаперевозки</h1>
+	<div class="img1-1"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-2">
+	<div class="button">Получить консультацию</div>
+	<h1>Мультимодальные перевозки</h1>
+	<div class="img1-2"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-3">
+	<div class="button">Получить консультацию</div>
+	<h1>Железнодорожные перевозки</h1>
+	<div class="img1-3"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-4">
+	<div class="button">Получить консультацию</div>
+	<h1>Автоперевозки</h1>
+	<div class="img1-4"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-5">
+	<div class="button">Получить консультацию</div>
+	<h1>Контейнерные перевозки</h1>
+	<div class="img1-5"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-6">
+	<div class="button">Получить консультацию</div>
+	<h1>Таможенное оформление</h1>
+	<div class="img1-6"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-7">
+	<div class="button">Получить консультацию</div>
+	<h1>Страхование грузов</h1>
+	<div class="img1-7"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<div class="modal md-content" id="modal-8">
+	<div class="button">Получить консультацию</div>
+	<h1>Складской<br>сервис</h1>
+	<div class="img1-8"></div>
+	<div class="text">
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+		<div id="del">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<br><br>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+	</div>
+</div>
+<!-- end window modal -->
+<script src="js/wow.js"></script>
+<script>
+	wow = new WOW({
+		animateClass: 'animated',
+		offset:       100,
+		callback:     function(box) {
+			console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+		}
+	});
+	wow.init();
+</script>
+<script>
+	$('.marquee-l').marquee({
+		direction: 'left'
+	});
+	$('.marquee-r').marquee({
+		direction: 'right'
+	});
+</script>
+<script>
+	var newsIndex = 1;
+	function NewsRotator() {
+		$(".imgm").hide();
+		$(".imgm" + newsIndex).show();
+		
+		var newsCount = 3;
+		newsIndex++;
+		if(newsIndex > newsCount) {
+			newsIndex = 1;
+		}
+	}
+
+	$(document).ready(function() {
+		NewsRotator();
+		setInterval(NewsRotator, 4000);
+	});
+</script>
+</body>
+</html>
